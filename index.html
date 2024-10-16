@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>X-men</title>
+
+    <link rel="stylesheet" href="src\css\estilos.css" />
+    <link rel="stylesheet" href="src\css\responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img
+        src="src\imagens\logo.png"
+        alt="logo"
+      />
+    </header>
+
+    <main class="selecao-personagens">
+      <section class="personagens">
+        <h1 class="titulo">SELECIONE UM PERSONAGEM</h1>
+        <ul class="lista-personagens">
+          <li
+            class="personagem selecionado"
+            id="naruto"
+            data-name="Naruto Uzumaki"
+            data-description="Naruto Uzumaki, é um shinobi de Konoha e protagonista da franquia Naruto. Desde seu nascimento, ele se tornou jinchuuriki das Nove-Caudas, um destino que o levou a ser condenado e negligenciado por toda a aldeia durante sua infância. Naruto trabalhou duro para ganhar o respeito e o reconhecimento da aldeia, com o sonho de se tornar Hokage."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-b091a71b91.jpg"
+              alt="personagem-naruto"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="kakashi"
+            data-name="Kakashi Hatake"
+            data-description="Kakashi Hatake, é um shinobi de Konoha. Ele recebeu um Sharingan de seu ex-companheiro de equipe, Obito Uchiha, quando era mais jovem, fazendo-o ser conhecido como Kakashi o Ninja Copiador e Kakashi do Sharingan. Seu prodigioso talento, habilidades e destreza com o Sharingan fizeram dele um dos mais capazes ninjas da aldeia, sendo reconhecido em todo o mundo ninja."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-3d952b7203.jpg"
+              alt="personagem-kakashi"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="itachi"
+            data-name="Itachi Uchiha"
+            data-description="Itachi Uchiha, foi um prodígio do clã Uchiha de Konoha. Ele se tornou um criminoso internacional depois de assassinar seu clã inteiro, poupando apenas a vida de seu irmão mais novo, Sasuke. Ele se juntou a organização criminosa Akatsuki, onde ele entrou em frequentes conflitos com Konoha e seus ninjas, incluindo Sasuke, que procurou vingar sua família."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-f6e34af061.jpg"
+              alt="personagem-itachi"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="kakuzu"
+            data-name="Kakuzu"
+            data-description="Kakuzu, foi um membro da Akatsuki e o parceiro de Hidan, antes de desertar de Takigakure. Apesar da antipatia mútua entre Kakuzu e Hidan, eles faziam uma dupla quase perfeita, porque as suas habilidades se complementavam extremamente bem. Tanto ele como Hidan eram praticamente imortais."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-dfc9226328.jpg"
+              alt="personagem-kakuzo"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="bee"
+            data-name="Killer Bee"
+            data-description="Bee, é um shinobi de Kumogakure. Ele é o mais recente jinchuuriki de Gyuuki, porém, ao contrário de seus antecessores, ele foi capaz de fazer amizade com ele e aprimorar o seu poder para o benefício da Nuvem. Apesar de ser responsável pela proteção da vila, B deseja ser o maior rapper do mundo."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-5b68882284.jpg"
+              alt="personagem-bee"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="shikamaru"
+            data-name="Shikamaru Nara"
+            data-description="Shikamaru Nara, é um membro do clã Nara de Konoha. Apesar de ser preguiçoso por natureza, Shikamaru tem um intelecto raro que constantemente lhe permite prevalecer em combate. As responsabilidades que esse intelecto gera para ele frequentemente o deixam aborrecido, mas ele as aceita de bom grado, para que possa estar a serviço de seus companheiros do Time Asuma, e para provar a si mesmo e às gerações do passado e do futuro o seu valor."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-285dd240db.jpg"
+              alt="personagem-shikamaru"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="tobi"
+            data-name="Tobi"
+            data-description="Tobi, foi um membro do clã Uchiha de Konoha. Acreditava-se que ele tinha morrido durante a Terceira Guerra Mundial Shinobi, com seu único legado sobrevivente sendo o Sharingan que ele deu ao seu companheiro de equipe, Kakashi Hatake. Na verdade, Obito foi salvo da morte e treinado por Madara Uchiha, mas os acontecimentos da guerra deixaram Obito desiludido com o mundo, e ele tentou substituí-lo por um novo."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-accb5ef2d5.png"
+              alt="personagem-tobi"
+            />
+          </li>
+          <li
+            class="personagem"
+            id="kurama"
+            data-name="Kurama"
+            data-description="Kurama, mais frequentemente conhecido como Nove-Caudas, é uma das nove Bijuu. Devido ao fato de durante séculos ter sido usado como uma ferramenta para a guerra e considerado um monstro que não sentia emoções, Kurama passou a odiar a humanidade. Depois de ter sido selado em Naruto Uzumaki, Kurama tentou manter suas opiniões negativas sobre o mundo, mas a insistência de Naruto em tratá-lo com respeito o fez deixar seu ódio de lado e passar a se esforçar, usando seu poder para salvar o mundo."
+          >
+            <img
+              src="https://s5.ezgif.com/tmp/ezgif-5-08df23e242.jpg"
+              alt="personagem-kurama"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="src\imagens\naruto.png"
+          alt="personagem selecionado"
+        />
+
+        <div class="informacoes">
+          <h2 class="nome" id="nome">NARUTO</h2>
+          <p class="descricao" id="descricao">
+            Naruto Uzumaki, é um shinobi de Konoha e protagonista da franquia Naruto. Desde seu nascimento, ele se tornou jinchuuriki das Nove-Caudas, um destino que o levou a ser condenado e negligenciado por toda a aldeia durante sua infância. Naruto trabalhou duro para ganhar o respeito e o reconhecimento da aldeia, com o sonho de se tornar Hokage.
+          </p>
+        </div>
+      </section>
+    </main>
+    <script src="src\js\index.js"></script>
+  </body>
+</html>
